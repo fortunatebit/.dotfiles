@@ -27,25 +27,26 @@ button {
 
 /* you can set a style on hover for any module like this */
 #pulseaudio:hover {
-    background-color: #32302f;
+    background-color: #11111b;
 }
 
 #workspaces button {
     padding: 0px 6px;
-    background-color: #282828;
-    color: #fbf1c7;
-    border: 2px dotted #3c3836;
-    border-radius: 50%;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border-bottom: 2px solid #f38ba8;
+    border-radius: 25%;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 #workspaces button.focused, #workspaces button.active {
-    background-color: #32302f;
+    background-color: #11111b;
+    border-bottom: 2px solid #a6e3a1;
 }
 
 #workspaces button.urgent {
-    background-color: #cc241d;
+    background-color: #f38ba8;
 }
 
 #clock,
@@ -57,11 +58,11 @@ button {
 #wireplumber,
 #tray {
     padding: 2px 8px;
-    background-color: #282828;
-    color: #fbf1c7;
-    border: 2px dotted #3c3836;
-    border-radius: 15px;
-    margin-bottom: 5px;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    border-bottom: 2px solid #cba6f7;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 
 #window,
@@ -74,7 +75,7 @@ button {
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    background-color: #f38ba8;
 }
 
 #pulseaudio {
@@ -82,7 +83,7 @@ button {
 }
 
 #pulseaudio.muted {
-    background-color: #f53c3c;
+    background-color: #f38ba8;
 }
 
 #wireplumber {
@@ -91,5 +92,5 @@ button {
 }
 
 wireplumber.muted {
-    background-color: #f53c3c;
+    background-color: #f38ba8;
 }
