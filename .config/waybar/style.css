@@ -84,6 +84,7 @@ button {
 
 #pulseaudio.muted {
     background-color: #f38ba8;
+    border-bottom: 2px solid #f9e2af;
 }
 
 #wireplumber {
